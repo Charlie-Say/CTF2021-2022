@@ -31,11 +31,13 @@
 
   ![image](https://user-images.githubusercontent.com/47869961/136655093-0d17f4d6-3e77-4a8f-b18f-14b50fcd525a.png)
   
-  3. Running the hash value through CrackStation gave up the result: "pineapple"
+  3. Running the hash value through CrackStation gave us the result: "pineapple". Noticing that the
+  has type was "sha256" that was referenced in the paragraph found on the first webpage, we made
+  the connection that this was the login passphrase.
 
   ![image](https://user-images.githubusercontent.com/47869961/136655355-feb2c259-4372-492a-8b83-12eeca0f24cd.png)
   
-  4. This was the password to login to the website. Once we got past the first page, we were sent to another page
+  4. Once we got past the first page, we were sent to another page
   that had a link that was bouncing on the screen that read "Get the flag!". By inspecting the HTML source,
   we see that there is a command written in javascript that can be executed in the Console tab next to Inspector.
   Once we typed in "print_flag()", the page updated to the flag bouncing on the screen once again. Avoiding
