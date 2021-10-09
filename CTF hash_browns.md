@@ -1,6 +1,7 @@
-
+  SOLVED: In-Time of CTF
 
     CATEGORY: web
+    CHALLEGE: hash_browns
     POINTS: 200
     DOWNLOAD LINK: None
     ACCESS: http://chal.ctf-league.osusec.org:31337/
@@ -8,9 +9,6 @@
     is to find a flag that will be in the form osu{n0t_a_fL4g}. When you capture the flag, 
     submit it in this channel using $submit <flag>. To start, open the linked website in your browser. 
     Good luck!
-
-
-
 
 
   1.  We were given a link and upon reaching the site, we see this:
